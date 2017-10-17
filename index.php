@@ -2,10 +2,9 @@
     function rgb(){
         for($i = 1; $i <= 50; ++$i){
             $r = 5 * $i;
-            echo "<div style='background-color:rgb(${r},${r},${r});width:20px;height:20px'></div>". PHP_EOL;
+            echo ("<div style='background-color:rgb(${r},${r},${r});width:20px;height:20px'></div>"). PHP_EOL;
             echo ('<br>'). PHP_EOL;
         }
-        
     }
     rgb();
 ?>
